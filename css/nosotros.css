@@ -52,7 +52,6 @@ h2{
 
 .img-wdg{
     width: 60%;
-    margin-left: 3.2rem;
     
 }
 
@@ -87,7 +86,9 @@ h2{
     margin-top: 5rem;
 }
 
-
+.card{
+    display: block;
+}
 .card .img-top {
     display: none;
  
@@ -183,7 +184,6 @@ p{
 
     .wwo-cards{
         margin-top: 6rem;
-        margin-right: 1rem;
     }
 
     .wwo-cardsT{
