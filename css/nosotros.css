@@ -1,0 +1,196 @@
+.background-gray{
+    background: linear-gradient(to left, #ffffff 64%, #ffd676 36%);
+
+    
+}
+body{
+    font-family: 'Noto Serif SC';
+    font-weight: 400;
+    color: #3c3b3b;
+}
+
+.card-text{
+    font-weight: 700;
+}
+
+.center-container{
+    text-align: center;
+}
+.contact{
+    padding: 120px 0px 120px 0px;
+}
+
+.Experiencias{
+    color: #000000;
+    font-weight: 700;
+    text-align: right;
+    border-bottom: 2px solid #f03;
+}
+
+.final{
+    color: black;
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.fontW{
+    color: black;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+h1{
+    color: black;
+    font-size: 3.75rem;
+    
+
+}
+h2{
+    color: black;
+    font-weight: 700;
+}
+
+.img-wdg{
+    width: 60%;
+    margin-left: 3.2rem;
+    
+}
+
+.marginLeft{
+    font-size: 2.5rem;
+    padding-left: 5rem;
+    padding-bottom: 3rem;
+}
+
+.margin-t{
+    padding-top: 8rem;
+}
+
+.pW{
+    color: #000000;
+}
+
+.subtitle{
+    font-size: 1.125rem;
+    color: #23272B;
+}
+
+.wwo{
+    margin-top: 15rem;
+}
+
+.wwo-cards{
+    margin-top: 6rem;
+}
+
+.wwo-contacts{
+    margin-top: 5rem;
+}
+
+
+.card .img-top {
+    display: none;
+ 
+}
+.card:hover .img-top {
+    display: inline;
+}
+
+.card:hover .img-bot {
+    display: none;
+}
+
+.card-time:hover{
+    background-color: #28A745;
+    color: white;
+}
+
+.card-quality:hover {
+    background-color: #11a2d0;
+    color: white;
+}
+
+.card-comm:hover{
+    background-color:  #343A40;
+    color: white;
+}
+
+.card-price:hover{
+    background-color: #fc5555;
+    color: white;
+}
+
+p{
+    line-height: 1.6
+}
+
+.Yellow{
+    background-color: #ffd676;
+}
+
+
+@media (max-width: 575.98px) {
+    .background-gray{
+        background: white;  
+    }
+
+    .contact{
+        padding: 120px 20px 120px 20px;
+    }
+    .Experiencias{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        color: #000000;
+        font-weight: 700;
+        text-align: left;
+        border-bottom: 2px solid #f03;
+    }
+
+    .final{
+        font-size: 2rem;
+    }
+
+    .fontW{
+        font-size: 1.3rem;
+    }
+
+    h1{
+        color: black;
+        font-size: 2rem;
+    }
+
+    .img-wdg{
+        width: 50%;
+    }
+
+    .marginLeft {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .margin-t{
+        padding-top: 6rem;
+    }
+
+    .subtitle{
+        font-size: 1rem;
+        color: #23272B;
+    }
+
+    .margin-cards{
+        padding-top: 3rem;
+    }
+
+    .wwo-cards{
+        margin-top: 6rem;
+        margin-right: 1rem;
+    }
+
+    .wwo-cardsT{
+        margin-top: 6rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+
