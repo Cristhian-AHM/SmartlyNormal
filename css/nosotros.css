@@ -4,7 +4,7 @@
     
 }
 body{
-    font-family: 'Noto Serif SC';
+    font-family: 'Lato';
     font-weight: 400;
     color: #3c3b3b;
 }
@@ -42,7 +42,7 @@ body{
 h1{
     color: black;
     font-size: 3.75rem;
-    
+    font-family: 'Noto Serif SC';
 
 }
 h2{
