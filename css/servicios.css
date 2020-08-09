@@ -1,0 +1,212 @@
+.a_dark{
+    color: black;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+body{
+    font-family: 'Lato';
+    font-weight: 400;
+    color: #3c3b3b;
+}
+
+.card{
+    -webkit-box-shadow: 2px 2px 38px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 38px -12px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 38px -12px rgba(0,0,0,0.75);
+}
+.card:hover{
+    color: white;
+    background-color: #23272b;
+}
+
+.center-container{
+    text-align: center;
+}
+
+
+
+.contact{
+    padding: 120px 0px 120px 0px;
+}
+
+.final{
+    color: black;
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+.fontW{
+    font-size: 1.3rem;
+}
+
+h1{
+    color: black;
+    font-size: 3.75rem;
+    font-family: 'Noto Serif SC';
+
+}
+h2{
+    color: black;
+    font-weight: 700;
+}
+
+h3{
+    color: black;
+    font-weight: 700;
+    font-size: 2.5rem;
+}   
+
+
+h5{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.margin-t{
+    padding-top: 8rem;
+}
+
+.margin-first-tab{
+    margin-left: 4rem;
+}
+
+.margin-tab{
+    margin-left: 13rem;
+}
+
+
+.nav-tabs .nav-link.active{
+    color: red ;
+    border-color: white;
+}
+.nav-tabs .nav-link:hover {
+    border-color: white;
+}
+.navbar-nav > li {
+    padding-left: 0px;
+    padding-right: 45px;
+}
+
+
+  nav{
+    font-weight: 700;
+}
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: black;
+  height: 2px;
+}
+nav.stroke ul li a:hover:after {
+    width: 100%;
+}
+
+.bigger_p{
+    font-size: 1.2rem;
+}
+
+.subtitle{
+    font-size: 1.3rem;
+    color: #23272B;
+    font-weight: 700;
+}
+
+.tab{
+    padding: 5rem 4rem 4rem 4rem;
+}
+.tabs{
+    margin-top: 5rem;
+}
+.text-tab{
+    font-size: 1.125rem;
+    color: #23272B;
+    line-height: 1.6;
+}
+.gray{
+    background-color: #FECB56;
+}
+.Yellow{
+    background-color: #f5f7f6;
+}
+ul.tabs {
+    list-style: none; /* Remove default bullets */
+  }
+  
+  ul.tabs li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #FECB56; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
+  ul.tabs li{
+      margin-top: 1rem;
+  }
+
+.wwo{
+    margin-top: 15rem;
+}
+
+.ww1{
+    margin-top: 8rem;
+}
+
+.wwo-contacts{
+    margin-top: 5rem;
+}
+
+@media (max-width: 575.98px) {
+
+    .contact{
+        padding: 120px 20px 120px 20px;
+    }
+
+    .final{
+        font-size: 2rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    .margin-first-tab{
+        margin-left: 0rem;
+    }
+    
+    .margin-tab{
+        margin-left: 0rem;
+    }
+
+    .nav-link{
+        padding: .5rem .5rem;
+    }
+
+    .nav-tabs{
+        margin-left: 1.1rem;
+    }
+    .tab{
+        padding: 3rem 2rem 3rem 2rem;
+    }
+
+    .subtitle{
+        font-size: 1.1rem;
+    }
+    .tabs{
+        margin-top: 1.3rem;
+    }
+
+    .text-tab{
+        font-size: 1rem;
+    }
+}

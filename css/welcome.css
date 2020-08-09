@@ -114,9 +114,7 @@ body{
 .corner-border{
     border-radius: 5%;
 }
-.contact{
-    padding: 120px 0px 120px 0px;
-}
+
 .wwo-contacts{
     margin-top: 5rem;
 }
@@ -124,6 +122,9 @@ body{
     color: black;
     font-size: 3.2rem;
     font-weight: 700;
+}
+.fontW{
+    font-size: 1.3rem;
 }
 .container-img{
     left: -100px;
@@ -177,6 +178,29 @@ body{
 }
 
 header{
+    width: 100%;
+}
+nav{
+    font-weight: 700;
+}
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: black;
+  height: 2px;
+}
+nav.stroke ul li a:hover:after {
     width: 100%;
 }
 .hr {
@@ -270,7 +294,9 @@ box-shadow: 0px 2px 34px -3px rgba(0,0,0,0.28);
 .subtitle{
     font-size: 1.4rem;
 }
-
+.contact{
+    padding: 120px 0px 120px 0px;
+}
 
 .Yellow{
     background-color: #FECB56;
@@ -287,6 +313,9 @@ box-shadow: 0px 2px 34px -3px rgba(0,0,0,0.28);
 @media (max-width: 575.98px) {
     .negative-margin-top {
         margin-top: -60%;
+    }
+    .padding-sm{
+        padding: 10px 30px 10px 30px;
     }
     .final{
         font-size: 2rem;
@@ -340,8 +369,8 @@ box-shadow: 0px 2px 34px -3px rgba(0,0,0,0.28);
     .container-img:hover img:nth-child(1){
       transform: translate(-80px,0px);		
     }
-    .contact {
-        padding: 20px 15px 40px 15px;
+    .contact{
+        padding: 100px 20px 100px 20px;
     }
     .footer-subtitle {
         font-size: 1rem;
@@ -403,6 +432,8 @@ box-shadow: 0px 2px 34px -3px rgba(0,0,0,0.28);
 .container-img:hover img:nth-child(1){
   transform: translate(-80px,0px);		
 }
+
+
 
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
