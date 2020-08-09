@@ -1,0 +1,54 @@
+body{
+    font-family: 'Lato';
+    font-weight: 400;
+    color: #3c3b3b;
+}
+
+.center-container{
+    text-align: center;
+}
+.hide{
+    overflow: hidden;
+}
+.gray-scale img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.gray-scale img:hover {
+	-webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.col-lg-4{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+h1{
+    color: black;
+    font-size: 3.75rem;
+    font-family: 'Noto Serif SC';
+
+}
+
+.img-resized{
+    width: 100%;
+}
+
+.margin-t{
+    padding-top: 8rem;
+}
+
+.subtitle{
+    font-size: 1.125rem;
+    color: #23272B;
+}
